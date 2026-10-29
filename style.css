@@ -58,3 +58,27 @@ footer a{color:#ddd}
 .card p{color:var(--muted)}
 .bform input,.bform select{background:#1a1a1a;color:#fff;border-color:#333}
 .lang-btn{display:none}
+
+/* Editorial barber look (v3) */
+body{font-family:"Inter",system-ui,sans-serif}
+.mega,.h2,h1,h2,h3,.brand,.svc .outline,.stats b{font-family:"Anton","Bebas Neue",Impact,sans-serif!important;font-weight:400!important;letter-spacing:.01em!important}
+.mega{font-size:clamp(3.6rem,17vw,10rem)!important;line-height:.88!important}
+.h2{font-size:clamp(2.6rem,9vw,5rem)!important;text-transform:uppercase;line-height:.95!important}
+.nav{border-bottom:1px solid rgba(255,255,255,.12)}
+.nav .wrap{justify-content:center;position:relative}
+.nav ul{position:absolute;right:0}
+.brand{font-size:1.5rem!important;text-transform:uppercase;letter-spacing:.08em!important}
+.nav::after{content:"";position:absolute;left:0;right:0;bottom:-6px;height:6px;background:repeating-linear-gradient(135deg,#c8102e 0 12px,#f2efe9 12px 24px,#1d3c8f 24px 36px,#f2efe9 36px 48px)}
+.hero{border:10px solid #0e0e0e;border-top:0}
+.hero::after{background:linear-gradient(90deg,rgba(0,0,0,.85),rgba(0,0,0,.25))!important}
+.hero .wrap{padding-bottom:9vh}
+.btn,.filters button,.card,.bform input,.bform select,.tag,.gal img,.map,[data-open]{border-radius:0!important}
+.btn{text-transform:uppercase;letter-spacing:.14em;font-size:.85rem}
+.filters button{text-transform:uppercase;letter-spacing:.12em;font-size:.78rem}
+.svc{border-top:1px solid #333}
+.svc h3{font-size:clamp(1.5rem,4vw,2.2rem)!important}
+.gal img{filter:grayscale(1) contrast(1.05);transition:filter .6s}
+.gal img:hover,.gal img:active{filter:none}
+.card{border-left:3px solid var(--accent)}
+.kick::before{content:"";display:inline-block;width:28px;height:2px;background:var(--accent);vertical-align:middle;margin-right:10px}
+@media(max-width:859px){.nav .wrap{justify-content:flex-start}}
