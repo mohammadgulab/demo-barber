@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Northside Barbers Manchester | Fades, Cuts and Shaves (Demo)</title>
+<meta name="description" content="Demo barber shop website in Manchester: services with filters, open now badge, booking on WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link href="style.css?v=2" rel="stylesheet">
+<link href="fx.css?v=2" rel="stylesheet">
+<script>document.documentElement.classList.add('fx-js')</script>
+</head>
+<body>
+<nav class="nav"><div class="wrap"><a class="brand" href="#top">Northside Barbers</a><ul><li><a href="#services">Services</a></li><li><a href="#book">Book</a></li><li><a href="#visit">Visit</a></li></ul></div></nav>
+<header class="hero dark" id="top" style="background-image:url(img/hero.jpg)">
+  <div class="wrap"><span data-open data-from="9" data-to="19" data-tz="Europe/London"></span><h1 class="mega">Not one of many.</h1><p>An honest barber shop in Manchester. Walk in or book, sharp cuts and proper shaves every day of the week.</p><div class="acts"><a class="btn" href="#book">Book a chair</a><a class="btn ghost" href="#services">Prices</a></div>
+  <div class="stats"><div><b data-count="4">4</b>chairs</div><div><b data-count="7">7</b>days a week</div><div><b data-count="30">30</b>minute cuts</div></div></div>
+</header>
+<section id="services"><div class="wrap">
+  <span class="kick" data-reveal>Services</span><h2 class="h2" data-reveal>Pick your cut.</h2>
+  <div class="filters" data-filters="svcg"><button class="on" data-f="all" aria-pressed="true">All</button><button data-f="cuts" aria-pressed="false">Cuts</button><button data-f="beard" aria-pressed="false">Beard</button><button data-f="kids" aria-pressed="false">Kids</button></div>
+  <div class="svcs" id="svcg"><div class="svc" data-cat="cuts" data-reveal><span class="outline">01</span><div><div class="row"><h3>Skin fade</h3><span class="price">£22</span></div><p>Clean fade, scissor top, hot towel finish</p></div></div><div class="svc" data-cat="cuts" data-reveal><span class="outline">02</span><div><div class="row"><h3>Classic cut</h3><span class="price">£18</span></div><p>Scissor or clipper, wash and style</p></div></div><div class="svc" data-cat="beard" data-reveal><span class="outline">03</span><div><div class="row"><h3>Beard trim</h3><span class="price">£12</span></div><p>Shape up, line up and beard oil</p></div></div><div class="svc" data-cat="beard" data-reveal><span class="outline">04</span><div><div class="row"><h3>Hot towel shave</h3><span class="price">£20</span></div><p>Straight razor, two hot towels</p></div></div><div class="svc" data-cat="cuts beard" data-reveal><span class="outline">05</span><div><div class="row"><h3>Cut and beard</h3><span class="price">£30</span></div><p>The full works</p></div></div><div class="svc" data-cat="kids" data-reveal><span class="outline">06</span><div><div class="row"><h3>Kids cut</h3><span class="price">£12</span></div><p>Under 12s, any day</p></div></div></div>
+</div></section>
+<section class="gal"><div class="wrap grid g3">
+  <div class="curtain" data-reveal><img src="img/trendy.jpg" alt="Fresh haircut" loading="lazy"></div>
+  <div class="curtain" data-reveal><img src="img/session.jpg" alt="Barber at work" loading="lazy"></div>
+  <div class="curtain" data-reveal><img src="img/chair.jpg" alt="Vintage barber chair" loading="lazy"></div>
+</div></section>
+<section id="book"><div class="wrap split">
+  <div data-reveal><span class="kick">Book</span><h2 class="h2">Grab a chair.</h2><p class="lead">Send your slot on WhatsApp and we will confirm it straight back.</p></div>
+  <form class="bform" data-wa="Hi Northside Barbers, I'd like to book." data-reveal>
+    <label>Your name<input name="Name" required placeholder="Your name"></label>
+    <label>Service<select name="Service"><option>Skin fade</option><option>Classic cut</option><option>Beard trim</option><option>Cut and beard</option><option>Kids cut</option></select></label>
+    <label>Date<input name="Date" type="date" required></label>
+    <label>Time<input name="Time" type="time" required></label>
+    <div class="full"><button class="btn" type="submit">Send on WhatsApp</button></div>
+  </form>
+</div></section>
+<section id="visit"><div class="wrap split">
+  <div data-reveal><span class="kick">Visit</span><h2 class="h2">Northern Quarter, Manchester.</h2><div class="info"><div class="card"><h3>Address</h3><p>Oldham Street, Manchester</p></div><div class="card"><h3>Hours</h3><p>Monday to Sunday 9am to 7pm</p></div></div></div>
+  <div data-reveal><iframe class="map" title="Map" src="https://www.openstreetmap.org/export/embed.html?bbox=-2.2420%2C53.4800%2C-2.2280%2C53.4880&amp;layer=mapnik&amp;marker=53.4840%2C-2.2350" loading="lazy"></iframe></div>
+</div></section>
+<footer><div class="wrap">Demo website. Northside Barbers is a fictional shop; prices are examples.<br>Photos from Wikimedia Commons: <a href="https://commons.wikimedia.org/wiki/File:Barber_cutting_hair_with_comb._Back_view_of_man_in_barber_shop.jpg" rel="noopener">Barber cutting hair with comb</a> by Nenad Stojkovic (<a href="https://creativecommons.org/licenses/by/2.0/" rel="noopener">CC BY 2.0</a>); <a href="https://commons.wikimedia.org/wiki/File:Young_men_with_trendy_haircut_at_barber_shop.jpg" rel="noopener">Young men with trendy haircut at barber </a> by Nenad Stojkovic (<a href="https://creativecommons.org/licenses/by/2.0/" rel="noopener">CC BY 2.0</a>); <a href="https://commons.wikimedia.org/wiki/File:Barber_shop_haircutting_session_(51210342653).jpg" rel="noopener">Barber shop haircutting session (5121034</a> by Hair Spies from US (<a href="https://creativecommons.org/licenses/by/2.0/" rel="noopener">CC BY 2.0</a>); <a href="https://commons.wikimedia.org/wiki/File:Scottsdale-1905_Barber_Chair.jpg" rel="noopener">Scottsdale-1905 Barber Chair</a> by Marine 69-71 (<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a>).<br>Design and code by Mohammad Gulab.</div></footer>
+<a class="wa-float" href="https://wa.me/" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M16.04 3C9.1 3 3.47 8.6 3.47 15.5c0 2.2.58 4.36 1.68 6.26L3.36 28.4l6.82-1.78a12.6 12.6 0 0 0 5.86 1.47h.01c6.93 0 12.57-5.6 12.57-12.5C28.62 8.6 22.98 3 16.04 3zm0 22.95h-.01a10.5 10.5 0 0 1-5.33-1.45l-.38-.23-4.05 1.06 1.08-3.93-.25-.4a10.3 10.3 0 0 1-1.6-5.5c0-5.74 4.7-10.4 10.5-10.4 5.79 0 10.49 4.66 10.49 10.4 0 5.75-4.7 10.45-10.45 10.45zm5.76-7.8c-.32-.16-1.86-.91-2.15-1.02-.29-.1-.5-.16-.71.16-.21.31-.82 1.02-1 1.23-.18.21-.37.23-.68.08-.32-.16-1.33-.49-2.53-1.55-.94-.83-1.57-1.86-1.75-2.17-.18-.31-.02-.48.14-.64.14-.14.32-.37.47-.55.16-.18.21-.31.32-.52.1-.21.05-.39-.03-.55-.08-.16-.71-1.7-.97-2.33-.26-.61-.52-.53-.71-.54h-.61c-.21 0-.55.08-.84.39-.29.31-1.1 1.07-1.1 2.62 0 1.54 1.13 3.03 1.29 3.24.16.21 2.22 3.37 5.37 4.72.75.32 1.34.52 1.8.66.75.24 1.44.2 1.98.12.6-.09 1.86-.75 2.12-1.48.26-.73.26-1.36.18-1.49-.08-.13-.29-.21-.6-.36z"/></svg><span>WhatsApp</span></a>
+<script type="application/json" id="i18n">{"lang": "en", "dir": "ltr", "label": "", "name": "", "t": {}}</script>
+<script>(function(){var n=document.querySelector('.nav');function f(){n.classList.toggle('solid',window.scrollY>40)}f();window.addEventListener('scroll',f,{passive:true})})()</script>
+<script src="i18n.js?v=1"></script>
+<script src="dyn.js?v=1"></script>
+<script src="fx.js?v=1"></script>
+</body>
+</html>
